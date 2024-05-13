@@ -3,13 +3,12 @@ import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 
 const Companies = () => {
-  const logosRef = useRef(null);
+  const logosRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
     if (logosRef.current) {
       let ul = logosRef.current;
       ul.insertAdjacentHTML("afterend", ul.outerHTML);
-      ul.nextSibling.setAttribute("aria-hidden", "true");
     }
   }, []);
   return (
