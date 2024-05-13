@@ -1,0 +1,32 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_ii_1_369)">
+<rect width="60" height="60" rx="30" fill="url(#paint0_radial_1_369)"/>
+<g clip-path="url(#clip0_1_369)">
+<path d="M26.7441 20.5545C28.2385 22.722 29.5433 24.9804 30.6579 27.3069M30.6579 27.3069C32.9856 26.2923 35.1661 24.8333 37.071 22.9289M30.6579 27.3069C31.2393 28.5203 31.7689 29.7523 32.2466 30.9995M34.5454 38.9044C34.2102 37.2534 33.7909 35.6164 33.2874 34M39.9755 30.8911C37.3466 30.3161 34.712 30.3846 32.2466 30.9995M32.2466 30.9995C28.5714 31.9162 25.2724 34.0473 22.9295 37.0711M22.9295 37.0711C26.8348 40.9763 33.1656 40.9763 37.071 37.071C40.9763 33.1658 40.9763 26.8341 37.071 22.9289M22.9295 37.0711C19.0242 33.1659 19.0232 26.8342 22.9285 22.929C26.8339 19.0237 33.1657 19.0237 37.071 22.9289M20.0617 28.9289C22.3762 29.1743 24.7235 29.0358 27 28.5125" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_ii_1_369" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_innerShadow_1_369"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_369"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_1_369" result="effect2_innerShadow_1_369"/>
+</filter>
+<radialGradient id="paint0_radial_1_369" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(30 30) rotate(45) scale(42.4264)">
+<stop stop-color="white" stop-opacity="0.08"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_1_369">
+<rect width="24" height="24" fill="white" transform="translate(18 18)"/>
+</clipPath>
+</defs>
+</svg>
