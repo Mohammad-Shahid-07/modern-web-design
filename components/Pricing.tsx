@@ -3,7 +3,7 @@ import PricingCard from "./PricingCard";
 import { pricingCardInfo } from "@/constant";
 const Pricing = () => {
   return (
-    <div>
+    <div id="pricing">
       <div className="mt-20 mb-8">
         <h2 className="text-6xl text-gredient font-medium text-center">
           Get everything to build your app

@@ -18,41 +18,45 @@ const Companies = () => {
         ref={logosRef}
         className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-loop-scroll"
       >
-        <li>
+        <li className="h-24 w-24">
           <Image
+            loading="lazy"
             src="/assets/comp-logo.svg"
             alt="Companies"
             width={100}
             height={200}
-            className="object-fill "
+            className="aspect-[3/2] h-full w-full object-contain "
           />
         </li>
 
-        <li>
+        <li className="h-28 w-28">
           <Image
+            loading="lazy"
             src="/assets/comp-logo2.svg"
             alt="Companies"
             width={100}
             height={200}
-            className="object-fill "
+            className="aspect-[3/2] h-full w-full object-contain "
           />{" "}
         </li>
-        <li>
+        <li className="h-28 w-28">
           <Image
+            loading="lazy"
             src="/assets/comp-logo4.png"
             alt="Companies"
-            width={150}
-            height={100}
-            className="object-fill "
+            width={100}
+            height={200}
+            className="aspect-[3/2] h-full w-full object-contain "
           />
         </li>
-        <li>
+        <li className="h-28 w-28">
           <Image
+            loading="lazy"
             src="/assets/comp-logo3.png"
             alt="Companies"
             width={100}
             height={200}
-            className="object-fill "
+            className="aspect-[3/2] h-full w-full object-contain "
           />
         </li>
       </ul>

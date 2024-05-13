@@ -6,8 +6,8 @@ import { UserPlus2 } from "lucide-react";
 const About = () => {
   return (
     <>
-      <div className="mt-16 mb-8 px-5">
-        <h2 className="sm:text-6xl text-5xl text-gredient font-medium text-center ">
+      <div className="mt-16 mb-8 sm:px-5  " id="about">
+        <h2 className="sm:text-6xl xs:text-4xl   text-3xl text-gredient font-medium text-center ">
           Revolutionalize your <br /> workflow
         </h2>
         <p className="text-white text-xl leading-10 text-center mt-5 lg:w-3/4 mx-auto ">
